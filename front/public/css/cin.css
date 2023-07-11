@@ -1,0 +1,148 @@
+/* * {
+    font-family: "Montserrat" , "Century Gothic";
+    margin: 0;
+    padding: 0;
+}*/
+/* ::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+	background-color: ghostwhite;
+} */
+/*
+::-webkit-scrollbar-thumb
+{
+    //background-color: rgb(51,51,51);
+    background-color: var(--secondColor);
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.7);
+} */
+
+/* a:hover
+{
+    text-decoration: none;
+}
+
+body
+{
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+} */
+
+.container_bg {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.box_bg_card {
+	height: auto;
+	width: auto;
+	/* background-image: url('../picture/images/cin_recto_verso.png'); */
+	background-size: contain;
+	background-position: top;
+	background-repeat: no-repeat;
+	/* background-color: dimgrey; */
+}
+
+.value_text {
+	min-width: 50px;
+	min-height: 30px;
+	/* background-color: rgba(51,51,251,0.31); */
+	padding: 0 10px;
+	font-weight: 600;
+}
+
+/**/
+
+.anarana_row {
+	margin-top: 57px;
+	margin-left: 90px;
+	width: 320px;
+}
+
+.fanampiny_anarana_row {
+	margin-left: 160px;
+	height: 60px;
+	width: 250px;
+}
+
+.teraka_row {
+	margin-left: 160px;
+	width: 250px;
+	height: 20px;
+}
+
+.lieu_naissance_row {
+	margin-left: 160px;
+	width: 250px;
+	height: 48px;
+	overflow: hidden;
+}
+
+.signe_row {
+	margin-left: 130px;
+	width: 250px;
+}
+
+.height_row {
+	margin-left: 130px;
+	width: 130px;
+	position: absolute;
+	right: -10px;
+	bottom: 15px;
+}
+
+.num_cin_row {
+	margin-top: 5px;
+	margin-left: 130px;
+	letter-spacing: 5.4px;
+	width: 220px;
+}
+
+.fonenana_row {
+	margin-top: 8px;
+	margin-left: 90px;
+	width: 250px;
+}
+
+.boribory_tany_row {
+	margin-left: 150px;
+	width: 250px;
+	margin-top: 5px;
+	height: 20px;
+}
+
+.asa_atao_row {
+	margin-left: 90px;
+	width: 250px;
+	height: 20px;
+}
+
+.ray_row {
+	margin-left: 80px;
+	width: 250px;
+	height: 20px;
+}
+
+.reny_row {
+	margin-left: 100px;
+	width: 250px;
+	height: 20px;
+}
+
+.natao_tao_row {
+	margin-left: 80px;
+	width: 250px;
+	height: 20px;
+}
+
+.tamin_ny_row {
+	margin-left: 60px;
+	width: 250px;
+	height: 20px;
+}
