@@ -2,10 +2,10 @@
 const mysql = require("mysql");
 //local mysql db connection
 const dbConn = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "",
-  database: "gestion_produits",
+  host: process.env.URL_BDD_HOST2,
+  user: process.env.URL_BDD_USER2,
+  password: process.env.URL_BDD_MDP2,
+  database: process.env.URL_BDD_NAME2,
 });
 dbConn.connect(function (err) {
   if (err) throw err;

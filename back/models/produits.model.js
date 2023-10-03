@@ -11,7 +11,7 @@ let Produits = function (produit) {
   this.montant = produit.montant;
 };
 
-const REQUETE_DE_BASE = `SELECT numProd, design, prix, quantite, montant FROM Produits `;
+const REQUETE_DE_BASE = `SELECT numProd, design, prix, quantite, montant FROM produits `;
 const REQUETE_AVANCER = `SELECT numProd, SUM(montant) as total, MIN(prix) as mMin, MAX(prix) as mMax FROM Produits `;
 
 const ORDER_BY = ` ORDER BY numProd DESC `;
